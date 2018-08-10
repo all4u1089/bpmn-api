@@ -1,0 +1,1 @@
+cp /var/www/clouvir-api/target/clouvir-api-1.0.0.war /opt/tomcat/webapps/ROOT.war
