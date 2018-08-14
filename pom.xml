@@ -95,21 +95,6 @@
 			<groupId>com.googlecode.json-simple</groupId>
 			<artifactId>json-simple</artifactId>
 		</dependency>
-		<dependency>
-		    <groupId>org.docx4j</groupId>
-		    <artifactId>docx4j</artifactId>
-		    <version>3.3.6</version>
-		    <exclusions>
-		    	<exclusion>
-		    		<groupId>org.slf4j</groupId>
-		    		<artifactId>slf4j-log4j12</artifactId>
-		    	</exclusion>
-		    </exclusions>
-		</dependency>
-		<dependency>
-	      	<groupId>org.springframework.boot</groupId>
-	      	<artifactId>spring-boot-starter-websocket</artifactId>
-	    </dependency>
 	    <dependency>
 	      	<groupId>org.springframework.boot</groupId>
 	      	<artifactId>spring-boot-starter-cache</artifactId>
@@ -117,14 +102,6 @@
 	    <dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-integration</artifactId>
-		</dependency>
-	    <dependency>
-	      	<groupId>org.springframework</groupId>
-	      	<artifactId>spring-messaging</artifactId>
-	    </dependency>
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.jasypt</groupId>
@@ -147,25 +124,9 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>io.katharsis</groupId>
-			<artifactId>katharsis-spring</artifactId>
-			<version>3.0.2</version>
-		</dependency>
-		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-search-orm</artifactId>
 			<version>5.8.2.Final</version>
-		</dependency>
-		<dependency>
-			<groupId>com.querydsl</groupId>
-			<artifactId>querydsl-lucene5</artifactId>
-			<version>${querydsl.version}</version>
-            <exclusions>
-            	<exclusion>
-           			<groupId>org.reflections</groupId>
-           			<artifactId>reflections</artifactId>
-            	</exclusion>
-            </exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.commons</groupId>
@@ -299,6 +260,15 @@
 			<groupId>org.apache.shiro</groupId>
 			<artifactId>shiro-core</artifactId>
 			<version>1.4.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>commons-codec</groupId>
+		    <artifactId>commons-codec</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.katharsis</groupId>
+			<artifactId>katharsis-spring</artifactId>
+			<version>3.0.2</version>
 		</dependency>
 		<!-- dependency>
 			<groupId>org.apache.shiro</groupId>
